@@ -14,9 +14,20 @@
   padding: 5px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
 .loading {
   font-family: "Lato", sans-serif;
   font-style: italic;
+}
+
+.back {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .search {
