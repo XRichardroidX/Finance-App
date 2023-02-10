@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { configureStore } from "@reduxjs/toolkit";
 import companiesReducer from "./companies/companiesSlice";
 

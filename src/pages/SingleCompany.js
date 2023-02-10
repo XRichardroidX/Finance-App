@@ -14,7 +14,6 @@ const SingleCompany = () => {
       shouldFetchCompany.current = false;
       dispatch(fetchCompanyData(companySymbol));
     }
-    // eslint-disable-next-line
   }, []);
   const { company } = useSelector((state) => state.companies);
 

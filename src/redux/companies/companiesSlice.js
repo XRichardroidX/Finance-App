@@ -54,7 +54,6 @@ const companiesSlice = createSlice({
     builder.addCase(fetchCompanyData.fulfilled, (state, action) => {
       const newState = state;
       newState.loading = false;
-      // eslint-disable-next-line
       newState.company = action.payload[0];
       newState.error = '';
     });
