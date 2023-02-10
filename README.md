@@ -83,8 +83,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
-
-- [Live Demo Link](https://react-capstone-d0aw.onrender.com)
+<!-- 
+- [Live Demo Link](https://react-capstone-d0aw.onrender.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +107,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/willy836/React-Capstone.git
+- git clone https://github.com/XRichardroidX/React-Capstone.git
 - cd React-Capstone/
 - npm install
 - npm run start
@@ -146,11 +146,11 @@ You can deploy this project using:
 
 > Mention all of the collaborators of this project.
 
-👤 **Wilson Kimiri**
+👤 **Richard O.I**
 
-- GitHub: [@githubhandle](https://github.com/willy836)
-- Twitter: [@twitterhandle](https://twitter.com/Kimiri836)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wilson-kimiri)
+- GitHub: [@githubhandle](https://github.com/XRichardroidX)
+- Twitter: [@twitterhandle](https://twitter.com/RichardroiDX)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-oguzie-ibeh-b4a975231)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/willy836/React-Capstone/issues).
+Feel free to check the [issues page](https://github.com/XRichardroidX/React-Capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
