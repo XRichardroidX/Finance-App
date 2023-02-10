@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { BsSearch } from 'react-icons/bs';
+import {
+  BsSearch, BsChevronLeft, BsMic, BsGear,
+} from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import Company from '../components/Company';
 import { fetchCompaniesData } from '../redux/companies/companiesSlice';
 import Header from '../components/Header';
@@ -17,7 +20,6 @@ const Companies = () => {
 
       dispatch(fetchCompaniesData());
     }
-    // eslint-disable-next-line
   }, []);
 
   const [search, setSearch] = useState('');
@@ -33,18 +35,28 @@ const Companies = () => {
           <h2 className="loading">Loading...</h2>
         </div>
       ) : (
-        <div className="search-companies">
-          <div className="search">
-            <h4 className="search-company">Search:</h4>
-            <div className="input-icon">
-              <input
-                type="text"
-                value={search}
-                onChange={handleSearch}
-                placeholder="Search Company"
-                className="search-input"
-              />
-              <BsSearch className="search-icon" />
+        <div className="search-companiess">
+          <div className="header">
+            <Link to="/" className="back">
+              <BsChevronLeft className="nav-icons" />
+              2015
+            </Link>
+            <div className="search">
+              <h4 className="search-company">Search:</h4>
+              <div className="input-icon">
+                <input
+                  type="text"
+                  value={search}
+                  onChange={handleSearch}
+                  placeholder="Search Company"
+                  className="search-input"
+                />
+                <BsSearch className="search-icon" />
+              </div>
+            </div>
+            <div className="nav-icons-right">
+              <BsMic className="nav-icons" />
+              <BsGear className="nav-icons" />
             </div>
           </div>
           <div className="display-companies">
