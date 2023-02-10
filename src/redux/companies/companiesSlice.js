@@ -1,3 +1,4 @@
+/* eslint-disable prefer-destructuring */
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const apikey = 'b6fcb46946487d0314a7c68982f4501a';
