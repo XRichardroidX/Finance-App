@@ -42,7 +42,6 @@ const Companies = () => {
               2015
             </Link>
             <div className="search">
-              <h4 className="search-company">Search:</h4>
               <div className="input-icon">
                 <input
                   type="text"
