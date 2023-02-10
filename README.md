@@ -83,8 +83,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
-<!-- 
-- [Live Demo Link](https://react-capstone-d0aw.onrender.com) -->
+
+- [Live Demo Link](https://richard-react-redux-capstone.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
